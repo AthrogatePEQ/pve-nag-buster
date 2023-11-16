@@ -33,7 +33,7 @@ fi
 
 # disable paid repo list
 
-PAID_BASE="/etc/apt/sources.list.d/pve-enterprise"
+PAID_BASE="/etc/apt/sources.list.d/ceph"
 
 if [ -f "$PAID_BASE.list" ]; then
   echo "$SCRIPT: Disabling PVE paid repo list ..."
